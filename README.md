@@ -18,7 +18,8 @@ Instalação
 
 - git clone git@github.com:fmontilla/lojasimples.git
 - Entrar na pasta do projeto via terminal e dar permissão 777 para a pasta storage
-- Entrar na pasta do projeto via terminal e digitar composer install
-- Digitar no terminal da pasta do projeto php artisan migrate --seed
-- Digitar no terminal yarn install ou npm install
-- Digitar no terminal npm run dev ou yarn watch
+- Entrar na pasta do projeto via terminal e rodar o comando composer install
+- Configurar no arquivo .env os dados de conexão ao banco de dados
+- Rodar o comando no terminal php artisan migrate --seed
+- Rodar o comando no terminal yarn install ou npm install
+- Rodar o comando no terminal npm run dev ou yarn watch
