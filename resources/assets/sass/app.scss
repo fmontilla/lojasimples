@@ -1,0 +1,70 @@
+// Material Icons
+@import url(https://fonts.googleapis.com/icon?family=Material+Icons);
+
+// Variables
+@import "variables";
+
+body{
+  background-color: color('grey','lighten-4');
+}
+
+#app{
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column
+}
+
+main{
+  flex: 1 0 auto
+}
+
+#sidenav-overlay {
+  z-index: 996 !important;
+}
+
+.filter-group{
+  .btn{
+    float: right;
+    height: 3rem;
+    line-height: 3rem;
+  }
+  .filter-wrapper{
+    overflow: hidden;
+    padding-right: 10px;
+  }
+}
+
+.category-tree{
+  border: none;
+  margin: 0;
+  overflow: visible;
+
+    .category-child{
+      padding-left: 50px;
+    }
+
+    .category-symbol{
+      line-height: 36px;
+      height: 36px;
+      i{
+        line-height: inherit;
+        height: inherit;
+      }
+    }
+}
+
+.label-error{
+  width: 100%;
+  &:after{
+    content: attr(data-error);
+    opacity: 1;
+    display: block;
+    position: absolute;
+    top: 55px;
+    transition: .2s opacity ease-out, .2s color ease-out;
+  }
+}
+
+.ac-appender{
+  display: none;
+}
