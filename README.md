@@ -23,3 +23,4 @@ Instalação
 - Rodar o comando no terminal php artisan migrate --seed
 - Rodar o comando no terminal yarn install ou npm install
 - Rodar o comando no terminal npm run dev ou yarn watch
+- Rodar o comando php artisan serve para iniciar o servidor da aplicação ou configurar a aplicação para rodar encima de outro servidor, por exemplo nginx, xampp, wamp, etc
